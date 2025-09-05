@@ -19,7 +19,7 @@ Sistema web para gestionar denuncias de acoso laboral, acoso sexual y discrimina
 
 ## 📦 Instalación
 ```bash
-git clone [https://github.com/tu-usuario/sistema-ley-karin.git](https://github.com/isabeau-valverde-cordovez/sistema-ley-karin.git)
+git clone (https://github.com/isabeau-valverde-cordovez/sistema-ley-karin.git)
 cd sistema-ley-karin
 pip install -r requirements.txt
 python manage.py runserver
