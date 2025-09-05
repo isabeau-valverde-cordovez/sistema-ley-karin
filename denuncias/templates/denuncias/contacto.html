@@ -1,0 +1,139 @@
+{% extends 'denuncias/base.html' %}
+
+{% block title %}Contacto - Sistema Ley Karin{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-lg-10">
+        <div class="card card-custom">
+            <div class="card-header bg-primary text-white">
+                <h2 class="h3 mb-0">
+                    <i class="bi bi-envelope me-2"></i>Contacto
+                </h2>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-5">
+                        <h4 class="text-primary mb-4">Información de Contacto</h4>
+                        
+                        <div class="d-flex align-items-start mb-4">
+                            <div class="bg-primary rounded-circle p-3 me-3">
+                                <i class="bi bi-geo-alt-fill text-white fs-5"></i>
+                            </div>
+                            <div>
+                                <h5 class="mb-1">Dirección</h5>
+                                <p class="text-muted mb-0">Av. Principal 1234<br>Antofagasta, Chile</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-start mb-4">
+                            <div class="bg-primary rounded-circle p-3 me-3">
+                                <i class="bi bi-telephone-fill text-white fs-5"></i>
+                            </div>
+                            <div>
+                                <h5 class="mb-1">Teléfono</h5>
+                                <p class="text-muted mb-0">+56 55 1234 5678</p>
+                                <small class="text-muted">Lunes a Viernes, 9:00 - 18:00</small>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-start mb-4">
+                            <div class="bg-primary rounded-circle p-3 me-3">
+                                <i class="bi bi-envelope-fill text-white fs-5"></i>
+                            </div>
+                            <div>
+                                <h5 class="mb-1">Email</h5>
+                                <p class="text-muted mb-0">contacto@leykarin.cl</p>
+                                <p class="text-muted mb-0">soporte@leykarin.cl</p>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-4">
+                            <h5 class="mb-3">Síguenos en redes sociales</h5>
+                            <div class="d-flex gap-3">
+                                <a href="#" class="text-primary fs-4"><i class="bi bi-facebook"></i></a>
+                                <a href="#" class="text-primary fs-4"><i class="bi bi-twitter"></i></a>
+                                <a href="#" class="text-primary fs-4"><i class="bi bi-linkedin"></i></a>
+                                <a href="#" class="text-primary fs-4"><i class="bi bi-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-7">
+                        <div class="bg-light p-4 rounded">
+                            <h4 class="text-primary mb-4">Envía un mensaje</h4>
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="nombre" class="form-label">Nombre completo *</label>
+                                        <input type="text" class="form-control" id="nombre" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="email" class="form-label">Email *</label>
+                                        <input type="email" class="form-control" id="email" required>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="asunto" class="form-label">Asunto *</label>
+                                    <input type="text" class="form-control" id="asunto" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="mensaje" class="form-label">Mensaje *</label>
+                                    <textarea class="form-control" id="mensaje" rows="5" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary-custom">
+                                    <i class="bi bi-send me-2"></i> Enviar mensaje
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card card-custom mt-4">
+            <div class="card-body">
+                <h4 class="text-primary mb-4">Preguntas frecuentes</h4>
+                <div class="accordion" id="faqAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                ¿Qué tipos de denuncias puedo reportar?
+                            </button>
+                        </h2>
+                        <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Puedes reportar casos de acoso laboral, acoso sexual y discriminación en el ámbito laboral, según lo establecido en la Ley Karin 21643.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                ¿Cómo se garantiza mi confidencialidad?
+                            </button>
+                        </h2>
+                        <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Todos los datos personales son protegidos según la Ley de Protección de Datos Personales. Las denuncias anónimas no requieren identificación.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                ¿En qué plazo recibo respuesta?
+                            </button>
+                        </h2>
+                        <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Todas las denuncias son revisadas dentro de las 48 horas hábiles posteriores a su recepción. El tiempo de resolución depende de la complejidad del caso.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
