@@ -26,5 +26,5 @@ python manage.py runserver
 ```
 
 ## 📞 Contacto
-Isabeau Valverde - [isabeau.valverde2000@gmail.com](isabeau.valverde2000@gmail.com)
+Isabeau Valverde +569 86518577- [isabeau.valverde2000@gmail.com](isabeau.valverde2000@gmail.com)
 
