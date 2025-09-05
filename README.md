@@ -1,27 +1,30 @@
-# Hola, soy Isabeau Valverde 👋
+# Sistema de Denuncias - Ley Karin 21643
 
-Desarrolladora Full Stack Python especializada en aplicaciones web con Django y sistemas de gestión.
+Sistema web para gestionar denuncias de acoso laboral, acoso sexual y discriminación según la Ley Karin 21643 de Chile.
 
-## 🚀 Proyectos Destacados
+## 🚀 Demo
+[![Video Demo](https://img.youtube.com/vi/TU_VIDEO_ID/0.jpg)](https://youtu.be/TU_VIDEO_ID)
 
-### [Sistema de Denuncias Ley Karin](https://github.com/tu-usuario/sistema-ley-karin)
-Sistema web para gestión de denuncias de acoso laboral según la Ley Karin 21643 de Chile.
+## ✨ Características
+- Formulario de denuncia con opción de anonimato.
+- Panel de administración para gestión de casos.
+- Interfaz responsive con Bootstrap.
+- Implementación de protocolos de la Ley Karin.
 
-**Tecnologías:** Python, Django, Bootstrap, SQLite
+## 🛠️ Tecnologías
+- Python 3.12
+- Django 5.2
+- Bootstrap 5.3
+- SQLite
 
-## 💼 Habilidades
+## 📦 Instalación
+```bash
+git clone [https://github.com/tu-usuario/sistema-ley-karin.git](https://github.com/isabeau-valverde-cordovez/sistema-ley-karin.git)
+cd sistema-ley-karin
+pip install -r requirements.txt
+python manage.py runserver
+```
 
-- **Lenguajes:** Python, JavaScript, HTML5, CSS3
-- **Frameworks:** Django, Bootstrap
-- **Bases de datos:** PostgreSQL, SQLite
-- **Herramientas:** Git, GitHub, VS Code
+## 📞 Contacto
+Isabeau Valverde - [isabeau.valverde2000@gmail.com](isabeau.valverde2000@gmail.com)
 
-## 📫 Contáctame
-
-- Email: isabeau.valverde@email.com
-- LinkedIn: [Isabeau Valverde](https://linkedin.com/in/tu-perfil)
-- Portfolio: [https://tu-usuario.github.io](https://tu-usuario.github.io)
-
-## 📊 Estadísticas de GitHub
-
-![Tus estadísticas de GitHub](https://github-readme-stats.vercel.app/api?username=tu-usuario&show_icons=true&theme=radical)
