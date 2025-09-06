@@ -13,9 +13,16 @@ Sistema web para gestionar denuncias de acoso laboral, acoso sexual y discrimina
 ![Inicio pagina](https://github.com/isabeau-valverde-cordovez/sistema-ley-karin/blob/93c511d6960c8517b249f9cd9eb534c5adc69a48/imagenes/Eleccion_karin.png)
 - Parte final Nueva Denuncia
 ![Continuación](https://github.com/isabeau-valverde-cordovez/sistema-ley-karin/blob/93c511d6960c8517b249f9cd9eb534c5adc69a48/imagenes/karin_4.png)
-- Pagina Acerce de
+- Pagina Acerca de
 ![Continuación](https://github.com/isabeau-valverde-cordovez/sistema-ley-karin/blob/93c511d6960c8517b249f9cd9eb534c5adc69a48/imagenes/Karin_5.png)
-
+- Pagina Final Acerca de
+![Continuación](https://github.com/isabeau-valverde-cordovez/sistema-ley-karin/blob/b18c06905166ad34b26050d53a603eb302addd7d/imagenes/Karin_6.png)
+- Pagina Contacto
+- ![Continuación](https://github.com/isabeau-valverde-cordovez/sistema-ley-karin/blob/b18c06905166ad34b26050d53a603eb302addd7d/imagenes/karin_7.png)
+- Pagina continuación contacto
+![Continuación](https://github.com/isabeau-valverde-cordovez/sistema-ley-karin/blob/b18c06905166ad34b26050d53a603eb302addd7d/imagenes/karin_8.png)
+-Pagina final contacto
+![Continuación](https://github.com/isabeau-valverde-cordovez/sistema-ley-karin/blob/b18c06905166ad34b26050d53a603eb302addd7d/imagenes/karin_9.png)
 
 [![Video Demo](https://img.youtube.com/vi/TU_VIDEO_ID/0.jpg)](https://youtu.be/TU_VIDEO_ID)
 
