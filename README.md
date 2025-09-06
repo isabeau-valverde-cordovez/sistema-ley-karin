@@ -3,7 +3,7 @@
 Sistema web para gestionar denuncias de acoso laboral, acoso sexual y discriminación según la Ley Karin 21643 de Chile.
 
 ## 🚀 Demo
-[![Inicio de pagina]([https://raw.githubusercontent.com/isabeau-valverde-cordovez/sistema-ley-karin/blob/main/imagenes/karin_1.png](https://github.com/isabeau-valverde-cordovez/sistema-ley-karin/blob/e290a847675aace4a4e40efafdb502645ab2c6e6/imagenes/karin_1.png))]
+[![Inicio de pagina]([https://raw.githubusercontent.com/isabeau-valverde-cordovez/sistema-ley-karin/blob/main/imagenes/karin_1.png](https://github.com/isabeau-valverde-cordovez/sistema-ley-karin/blob/e290a847675aace4a4e40efafdb502645ab2c6e6/imagenes/karin_1.png))] (https://github.com/isabeau-valverde-cordovez/sistema-ley-karin/blob/e290a847675aace4a4e40efafdb502645ab2c6e6/imagenes/karin_1.png)
 [![Video Demo](https://img.youtube.com/vi/TU_VIDEO_ID/0.jpg)](https://youtu.be/TU_VIDEO_ID)
 
 ## ✨ Características
